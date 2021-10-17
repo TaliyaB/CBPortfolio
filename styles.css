@@ -1,0 +1,75 @@
+:root{
+   --def-primary:#0e2f60;
+}
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3,h5{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0.5em 0em;
+}
+nav{
+  background-color: var(--def-primary);
+  padding-top: 0.3em;
+}
+#landing{
+  /*  */
+  background: url("bacnkground.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 5em 3.5em;
+  min-height: 25em;
+  max-height: 40em;
+}
+#skills{
+  text-align: center;
+  padding: 2.5em 3.5em;
+  height: auto;
+}
+#projects{
+  text-align: center;
+  padding: 3.5em;
+  height: auto;
+}
+#certificates{
+  text-align: center;
+  padding: 3.5em;
+  height: auto;
+}
+#contacts{
+  color: white;
+  text-align: center;
+  padding: 2.5em;
+  height: auto;
+}
+#footer{
+  color: white;
+  background-color: #0e2f60;
+  font-size: 0.8em;
+  text-align: center;
+  padding: 0.8em;
+  height: auto;
+}
+#IDPic{
+  width: 10%;
+  margin: 0.5em;
+  min-width: 8em;
+}
+#fish{
+  height: 5%;
+  min-height: 8em;
+}
+.icon{
+  height: 50%;
+  width: 50%
+}
+.row{
+  padding: 3em;
+}
+.modal-body{
+  text-align: center;
+}

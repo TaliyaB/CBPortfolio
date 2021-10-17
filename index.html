@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CB Portfolio</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./node_modules\bootstrap\dist\css\bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <a class="navbar-brand" href="#landing">CB Portfolio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#portfolio-nav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="portfolio-nav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#projects" class="nav-link"> Projects </a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link"> Skills </a>
+          </li>
+          <li class="nav-item">
+            <a href="#certificates" class="nav-link"> Certificates </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!-- containr -->
+  <div class="container-fluid" id="landing">
+    <h1>Christalline Joie Borjal</h1>
+    <h3>Software Developer</h3>
+    <hr class="mt-3 mb-3"/>
+    <p>Try, test, run.
+    Delivers  agile development  of microprocessor systems,  mobile apps and web  sites. </p>
+    <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Show Contact Info
+    </button>
+  </div>
+
+  <div class="container-fluid" id="projects">
+    <h3>Notable Works</h3>
+    <!--  -->
+ 
+    <!--  -->
+    <div class="card-group">
+      <div class="card">
+        <img src="assets\img\personal\WHOISDASC.png" class="card-img-top mx-auto d-block" alt="..." style="width: 75%; padding-top: 1.5em;">
+        <div class="card-body">
+          <h5 class="card-title">Auto Fish Feeder Using Convolutional Neural Network</h5>
+          <p class="card-text">A preview of our group's capstone project. A neural network detects the fishes in the aquarium then classified according to the feeding behavor.</p>
+          <a href="Auto Fish Feeder Using CNN.html" class="btn btn-primary">Watch Demo</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets\img\personal\AdarnaSample_area_5.jpg" class="card-img-top mx-auto d-block" alt="..." style="width: 75%;padding-top: 1.5em;">
+        <div class="card-body">
+          <h5 class="card-title">ADARNA</h5>
+          <p class="card-text">Top 20 entry in the 16th SWEEP Innovations and Excellence Awards. Neural networks to be integrated in drones to aid in rapid damage assessment.</p>
+          <a href="ADARNA.html" class="btn btn-primary">Watch Demo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="mt-3 mb-3"/>
+
+  <div class="container-fluid" id="skills">
+    <h3>Offers the following services</h3>
+    <!--  -->
+    <div class="card-group">
+      <div class="card">
+        <img src="potf-icon-robotics.svg" class="card-img-top mx-auto d-block" alt="..." style="width: 75%;">
+        <div class="card-body">
+          <h5 class="card-title">Robotics</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="potf-icon-web.svg" class="card-img-top mx-auto d-block" alt="..." style="width: 75%;">
+        <div class="card-body">
+          <h5 class="card-title">Web</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="potf-icon-android.svg" class="card-img-top mx-auto d-block" alt="..." style="width: 75%;">
+        <div class="card-body">
+          <h5 class="card-title">Android</h5>
+        </div>
+      </div>
+      <div class="card">
+        <img src="potf-icon-machine.svg" class="card-img-top mx-auto d-block" alt="..." style="width: 75%;">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning</h5>
+        </div>
+      </div>
+    </div>
+    <hr class="mt-3 mb-3"/>
+  </div>
+
+  <div class="container-fluid" id="certificates">
+    <h3>Certificates</h3>
+    <h5>Education</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Bachelor of Science in Computer Engineering
+        <br>Bicol University, 2020<br>
+      </li>
+      <li class="list-group-item">Engineering and Science Education Program<br>
+      Tabaco National High School, 2014<br>
+    </li>
+    </ul>
+    <h5>Awards</h5>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Top 20 Finalist, 16th SWEEP Innovations and Excellence Awards
+        <br>Theme: Data Analytics in Action<br>
+        Entry: ADARNA<br>
+        Group Representative
+      </li>
+      <li class="list-group-item">Champion, Regional Robotics Competition (Line Follower) <br>
+      Group Representative<br></li>
+      <li class="list-group-item">Ubiquiti Broadband Wireless Specialist</li>
+  </ul>
+  </div>
+  <div class="container-fluid" id="footer">
+    <p>I hereby pledge that the above information is true and correct to the best of my knowledge
+      and belief.</p>
+    <p>Made for personal use only. Background Image: https://bgjar.com/rect-light <br>
+      ©TaliyaB 2021 (github.com/TaliyaB) </p>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact Info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="assets\img\Talline_ID.jpg" class=" rounded-circle" alt="" id="IDPic">
+        <h5>Christalline Joie Borjal</h5>
+        <p>
+        borjalchristallinejoie@gmail.com<br>
+        09564035391</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- JS -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+ 
+  </body>
+</html>
